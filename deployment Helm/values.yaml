@@ -17,9 +17,6 @@ tesk:
     taskmaster_image_version: v0.6
     taskmaster_filer_image_version: v0.6
     debug: false
-    # the following variables are specific to each deployment
-    # use project-name as namespace for openshift
-    k8s_namespace: csc-tesk
 
 transfer:
     # If you want local file systems support (i.e. 'file:' urls in inputs and outputs),

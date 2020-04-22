@@ -54,7 +54,6 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: nginx-ingress
-  namespace: {{ .Values.tesk.k8s_namespace }}
 roleRef:
   kind: {{ .Values.kubernetes.scope }}Role
   name: nginx-ingress

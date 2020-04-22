@@ -30,7 +30,6 @@ See [`values.yaml`](values.yaml) for default values.
 | tesk.taskmaster_image_version | string | |
 | tesk.taskmaster_filer_image_version | string | |
 | tesk.debug | boolean | Activates the debugging mode |
-| tesk.k8s_namespace | string | Namespace to deploy TESK, used both for openshift and kubernetes deployments |
 | transfer.wes_base_path | string | WesElixir locally Change the value of $wesBasePath in minikubeStart accordingly |
 | transfer.tes_base_path | string | |
 | transfer.pvc_name | string | |

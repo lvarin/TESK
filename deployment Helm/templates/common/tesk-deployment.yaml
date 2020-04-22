@@ -22,7 +22,7 @@ spec:
         - name: TESK_API_TASKMASTER_FILER_IMAGE_VERSION
           value: {{ .Values.tesk.taskmaster_filer_image_version }}
         - name: TESK_API_K8S_NAMESPACE
-          value: {{ .Values.tesk.k8s_namespace }}
+          value: {{.Release.Namespace}}
         - name: TESK_API_TASKMASTER_SERVICE_ACCOUNT_NAME
           value: taskmaster
         - name: TESK_API_TASKMASTER_FTP_SECRET_NAME
