@@ -27,6 +27,8 @@ spec:
           value: taskmaster
         - name: TESK_API_TASKMASTER_FTP_SECRET_NAME
           value: ftp-secret
+        - name: TESK_API_TASKMASTER_ENVIRONMENT_NETRC_SECRET_NAME
+          value: netrc
         - name: TESK_API_AUTHORISATION_ENV_SUBGROUP
           value: {{ .Values.auth.env_subgroup }}
         - name: TESK_API_AUTHORISATION_BASE_GROUP

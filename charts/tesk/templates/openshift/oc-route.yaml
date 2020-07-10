@@ -2,7 +2,7 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: tesk-svc
+  name: tesk-route
 spec:
   host: {{ .Values.host_name }}
   tls:
